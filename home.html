@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />     -->
+    <title>Document</title>
+</head>
+<body>
+    <div class=" container bg-deep-purple flex justify-center items-center flex-col p-10 min-h-screen w-full max-w-full">
+        <h1 class="font-bold text-3xl mb-8 text-purple-500">TO-Do List</h1>
+        <div class="inner-container bg-inner-background p-10 rounded-lg max-w-full">
+            <Button id="creates-note-button" class="create-notes bg-white py-3 px-20 rounded-md mb-5 w-full"><i class="edit-icon fa-solid fa-pen-to-square text-black text-md mr-3"></i>
+                Create List</Button>
+
+            <div id="myTasks" class="input-box flex justify-between items-center space-y-4 flex-col">
+                    <!-- <input type="text" contenteditable="true" placeholder="Add a new task" id="input-task-field" class="hidden input-field py-4 px-5 hover:shadow-sm hover:shadow-purple-800 focus:border-border-stroke focus:outline-none focus:border text-white bg-list-boxes placeholder:text-gray-500 rounded-md max-sm:w-full">
+                    <div class="icon-tasks sm:hidden">
+                        <i class="mark-icon fa-solid fa-check text-white text-md mr-3"></i>
+                        <i class="edit-icon fa-solid fa-pen-to-square text-white text-md mr-3"></i>
+                        <i class="delete-icon fa-solid fa-trash text-white text-md"></i>    
+                    </div>
+                </div>
+                <div id="add-notes-button" class="add-notes-button sm:hidden flex items-center gap-2 bg-icon-background rounded-lg px-4 py-3 w-full justify-center max-sm:mt-3 hover:bg-purple-700">
+                    <p class="text-white font-semibold text-md">Add </p>
+                    <i class="fa-solid fa-plus text-white text-lg"></i>
+                </div> -->
+                <!-- <div id="add-notes-button" class="add-notes-button sm:hidden flex items-center gap-2 bg-icon-background rounded-lg px-4 py-3 w-full justify-center max-sm:mt-3 hover:bg-purple-700"> -->
+                    <!-- <p class="text-white font-semibold text-md">Add </p>
+                    <i class="fa-solid fa-plus text-white text-lg"></i> -->
+                <!-- </div> -->
+            </div>
+           
+
+
+            <h5 class="text-white font-bold text-xl mt-12 mb-3 md:mt-16 md:mb-5">My Tasks</h5>
+            <div class="tasks flex flex-col space-y-5 max-w-full max-sm:w-full">
+                <p class="text-gray-500 text-center no-task mt-10">No tasks yet</p>
+                <!-- <div class="input-box flex justify-between items-center sm:hidden">
+                    <input type="text" placeholder="Add a new task" class="input-field py-4 px-5 hover:shadow-sm hover:shadow-purple-800 focus:border-border-stroke focus:outline-none focus:border text-white bg-list-boxes placeholder:text-gray-500 rounded-md max-sm:w-full">
+                    <div class="icon-tasks max-sm:hidden">
+                        <i class="mark-icon fa-solid fa-check text-white text-md mr-3"></i>
+                        <i class="edit-icon fa-solid fa-pen-to-square text-white text-md mr-3"></i>
+                        <i class="delete-icon fa-solid fa-trash text-white text-md"></i>    
+                    </div>
+                </div> -->
+                <!-- <input type="text" placeholder="My tasks" class="py-4 px-5 hover:shadow-sm hover:shadow-purple-800 focus:border-border-stroke focus:outline-none focus:border text-white bg-list-boxes placeholder:text-gray-500 rounded-md">
+                <input type="text" placeholder="My tasks" class="py-4 px-5 hover:shadow-sm hover:shadow-purple-800 focus:border-border-stroke focus:outline-none focus:border text-white bg-list-boxes placeholder:text-gray-500 rounded-md">
+                <input type="text" placeholder="My tasks" class="py-4 px-5 hover:shadow-sm hover:shadow-purple-800 focus:border-border-stroke focus:outline-none focus:border text-white bg-list-boxes placeholder:text-gray-500 rounded-md"> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+                    <!-- <input type="text" contenteditable="true" placeholder="New task" class="input-field hidden max-w-full py-3 px-4 border border-border-stroke bg-transparent placeholder:text-gray-500 rounded-md text-white focus:border-2 focus:border-purple-400 focus:outline-none max-sm:w-full"> -->
+
+
+                                    <!-- <textarea placeholder="New task" class="max-w-full px-4 py-2 border border-border-stroke placeholder:text-gray-500 rounded-md">New Task</textarea> -->
+                <!-- <input type="text" contenteditable="true" placeholder="New task" class="input-field hidden max-w-full py-3 px-4 border border-border-stroke bg-transparent placeholder:text-gray-500 rounded-md text-white focus:border-2 focus:border-purple-400 focus:outline-none max-sm:w-full"> -->
